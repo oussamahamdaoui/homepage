@@ -1,1 +1,54 @@
-# homepage
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oussama</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      background-color: black;
+      height: 100%;
+    }
+
+    body {
+      font-family: "Press Start 2P", sans-serif;
+      background-color: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      gap: 1rem;
+    }
+
+    a {
+      color: white;
+    }
+
+    p {
+      max-width: 400px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Hello there</h1>
+  <h1>I'm</h1>
+  <h1>Oussama Hamdaoui</h1>
+  <p>For freelance requests contatc <a href="mailto:hello@oussama.in">hello@oussama.in</a></p>
+</body>
+
+</html>
